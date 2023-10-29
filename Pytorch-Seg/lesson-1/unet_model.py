@@ -40,3 +40,4 @@ class UNet(nn.Module):
 if __name__ == '__main__':
     net = UNet(n_channels=3, n_classes=1)
     print(net)
+    print()
